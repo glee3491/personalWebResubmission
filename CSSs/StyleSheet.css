@@ -1,0 +1,66 @@
+body {
+    font-family: 'Oleo Script', cursive;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../pics/homebg.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+}
+
+#inst {
+    font-family: 'Oleo Script', cursive;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+}
+
+.label {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    align-content: center;
+}
+
+.elements {
+    padding: 0px;
+    line-height: 45px;
+    text-align: center;
+    align-content: center;
+}
+
+.elements>a {
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-content: center;
+}
+
+.intro{
+    font-family: 'Oleo Script', cursive;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    color: black;
+    line-height: 8px;
+    align-content: center;
+}
+
+#hi {
+    font-size: 30px;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#me {
+    font-size: 23px;
+}
+

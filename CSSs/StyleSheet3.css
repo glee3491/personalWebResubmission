@@ -1,0 +1,121 @@
+body {
+    font-family: 'Oleo Script', cursive;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+	background-size: cover;
+	background-image: url("../pics/homebg.jpg");
+	background-repeat: no-repeat;
+    text-align: center;
+}
+
+#inst {
+    font-family: 'Oleo Script', cursive;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+}
+
+#portfolio {
+	font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.modal {
+    display: none; /* Hidden by default */       position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */  
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */                          
+}
+
+
+.dtnmClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+    
+.dtnmClose:hover,
+.dtnmClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sltcClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+    
+.sltcClose:hover,
+.sltcClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+section {
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0px;
+    padding-top: 5px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 5px;
+    height: 400px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.label {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    align-content: center;
+}
+
+.elements {
+    padding: 0px;
+    line-height: 45px;
+    text-align: center;
+    align-content: center;
+}
+
+.elements>a {
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    align-content: center;
+}
+
+#dntm>p {
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+}
